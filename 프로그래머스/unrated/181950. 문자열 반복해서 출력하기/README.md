@@ -1,4 +1,4 @@
-# [unrated] 문자열 반복해서 출력하기 - 181950 
+# [Lv.0] 문자열 반복해서 출력하기 - 181950 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181950) 
 
