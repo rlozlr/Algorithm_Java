@@ -1,4 +1,4 @@
-# [unrated] a와 b 출력하기 - 181951 
+# [Lv.0] a와 b 출력하기 - 181951 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181951) 
 
