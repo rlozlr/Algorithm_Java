@@ -1,16 +1,22 @@
 import java.util.*;
 
 class Solution {
-    public List<Integer> solution(int[] arr) {
-        List<Integer> answer = new ArrayList<>();
-        
+    public int[] solution(int[] arr) {
+        int cnt = 0;
         for(int i = 0; i < arr.length; i++) {
-            int cnt = 0;
-            while (cnt < arr[i]) {
-                answer.add(arr[i]);
-                cnt++;
+            cnt += arr[i];
+        }
+        
+        int[] answer = new int [cnt];
+        int idx = 0;
+        for(int i = 0; i < arr.length; i++) {
+            int repeat = arr[i];
+            while (repeat > 0) {
+                answer[idx++] = arr[i];
+                repeat--;
             }
         }
+        
         return answer;
     }
 }
